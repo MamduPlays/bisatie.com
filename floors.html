@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Bisatie</title>
+        <link rel="stylesheet" href="style.css">
+        <script lang="javascript">
+            function myFunction() {
+                console.log(document.getElementById('docbody').classList);
+                document.getElementById('docbody').classList.toggle("light-mode");
+                document.getElementById('docnav').classList.toggle("nav-light-mode");
+                document.getElementById('docnav').classList.toggle("docnav");
+                document.getElementById('docheader').classList.toggle("header-light-mode");
+                document.getElementById('docheader').classList.toggle("docheader");
+            }
+          </script>
+    </head>
+    <body style=" margin: 0px; padding: 0px;" id="docbody">
+        <div style="width:100%; height:10% ; "id="docheader" class="docheader">
+            <div style="width:15%; float:left">
+                <h1>Bisatie.com</h1>
+            </div>
+            <div style="width:65%; float:left">
+                <h2>About the House</h2>
+            </div>
+            <div style="width: 6%; float:right;">
+              <img onclick="myFunction()" style="width: 100;" src="Images/35.png" alt="Light/Dark Mode">
+          </div>
+        </div>
+        <div style="height: 90%; margin: 0px;">
+            <div style="width: 15%;float:left;padding: 0;margin: 0px;height: 100%;" id="docnav" class="docnav">
+                <a href="index.htm">
+                    <div  class="menu-container">
+                        <div class="vertical-center">Home</div>
+                    </div>
+                </a>
+                <a href="floors.html">
+                    <div class="menu-container">
+                        <div class="vertical-center">About The House</div>
+                    </div>
+                </a>
+                <a href="family.html">
+                    <div class="menu-container">
+                        <div class="vertical-center">Family</div>
+                    </div>
+                </a>
+                 <a href="">
+                    <div class="menu-container">
+                        <div class="vertical-center">Images</div>
+                    </div>
+                </a>
+                 <a href="">
+                    <div class="menu-container">
+                        <div class="vertical-center">About Me</div>
+                    </div>
+                </a>
+                 <a href="">
+                    <div class="menu-container">
+                        <div class="vertical-center">Family Tree</div>
+                    </div>
+                </a>
+            </div>
+            <div style="width: 85%;float:left;margin: 0px;">
+                <div style="width: 70%;float: left;padding: 8px;">
+                    <h3 style="font-size: 35;  padding-left: 15; font-size: 25;">First Floor</h3>
+                    <p style=" font-size: 20; padding-left: 15;">When you enter the house. On the left you will see a couple of trees and plants.
+                         After moving a bit forward you will see 2 doors. The left door will be the
+                        drawing Room and the other is the restroom. You will see a big lawn, after moving forward. And then two big doors. When you will enter the 
+                        door you will see four doors. On the right side will
+                        be the drawing room and on the left  will be the living room. And adjecent will be my bedroom beside my bedroom will be my uncle's bedroom.
+                         besides the living room will be the kitchen and beside
+                        the kitchen will be the store room. </p>
+                </div>    
+                <div style="float: right;">
+                    <img width="340" style="margin: 10px;" src="Images/1.jpg" alt="Image Not Avaliable">
+                    <p style="color: aliceblue; margin: left 20px;;">"<i><b>An Old Photo Of Me Standing In The Lawn</b></i>"</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
